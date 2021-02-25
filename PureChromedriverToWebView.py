@@ -2,7 +2,7 @@ from selenium import webdriver
 options = webdriver.ChromeOptions()
 options.add_experimental_option('androidPackage', 'org.chromium.webview_shell')
 options.add_experimental_option('androidActivity', '.WebViewBrowserActivity')
-driver = webdriver.Chrome(r'C:\Tools\chromedriver-83.0.4103.39.exe',
+driver = webdriver.Chrome(r'C:\Tools\chromedriver-88.0.4324.96.exe',
                           options=options)
 driver.get('https://en.m.wikipedia.org/wiki/Donner_Pass')
 section_0 = driver.find_element_by_id('section_0')
